@@ -1,0 +1,60 @@
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 27: Serious error: C2857E: #include file <sys/stat.h> wouldn't open
+"C:\Program Files\MRE_SDK\include\vmsys.h", line 214: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"C:\Program Files\MRE_SDK\include\vmio.h", line 1801: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"D:\MyGitHub\calculatingPi\zbar.h", line 103: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"D:\MyGitHub\calculatingPi\zbar.h", line 124: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"D:\MyGitHub\calculatingPi\zbar.h", line 160: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 36: Warning: C2926W: 'struct stat' invented in parameter list
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 39: Warning: C2926W: 'struct stat' invented in parameter list
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 42: Warning: C2215W: Deprecated declaration _fork() - give arg types
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 43: Warning: C2215W: Deprecated declaration _getpid() - give arg types
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 46: Error: C2225W: declaration lacks type/storage-class (assuming 'int'): 'caddr_t'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 46: Error: C2285E: expected ';' or ',' - inserted ';' before '_sbrk'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 46: Error: C2225W: declaration lacks type/storage-class (assuming 'int'): '_sbrk'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 53: Warning: C3449W: static initialisation of '__environ' using address of '__env' may cause link failure -ropi
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 58: Error: C2991E: linkage disagreement for 'caddr_t' - treated as 'extern'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 58: Error: C2285E: expected ';' or ',' - inserted ';' before 'heap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 58: Error: C2225W: declaration lacks type/storage-class (assuming 'int'): 'heap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 86: Warning: C2926W: 'struct stat' invented in parameter list
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 87: Error: C2933E: type disagreement for '_fstat'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 88: Serious error: C2363E: member 'st_mode' not found in 'struct stat'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 88: Error: C2456E: undeclared name, inventing 'extern int S_IFCHR'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 107: Error: C2225W: declaration lacks type/storage-class (assuming 'int'): 'caddr_t'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 107: Error: C2285E: expected ';' or ',' - inserted ';' before '_sbrk'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 108: Warning: C2218W: implicit 'int' return type for '_sbrk' - 'void' intended?
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 109: Warning: C2917W: no side effect in void context: 'caddr_t'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 109: Serious error: C2284E: expected ';' after command - inserted before 'prevHeap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 109: Error: C2456E: undeclared name, inventing 'extern int prevHeap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 109: Warning: C2917W: no side effect in void context: 'prevHeap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 110: Warning: C2917W: no side effect in void context: 'caddr_t'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 110: Serious error: C2284E: expected ';' after command - inserted before 'nextHeap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 110: Error: C2456E: undeclared name, inventing 'extern int nextHeap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 110: Warning: C2917W: no side effect in void context: 'nextHeap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 122: Serious error: C2966E: attempt to apply a non-function
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 128: Error: C2456E: undeclared name, inventing 'extern int ENOMEM'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 134: Serious error: C2284E: expected ';' after command - inserted before 'prevHeap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 134: Warning: C2917W: no side effect in void context: 'prevHeap'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 145: Error: C2456E: undeclared name, inventing 'extern int EMLINK'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 151: Error: C2456E: undeclared name, inventing 'extern int ENOENT'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 155: Warning: C2926W: 'struct stat' invented in parameter list
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 156: Error: C2933E: type disagreement for '_stat'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 157: Serious error: C2363E: member 'st_mode' not found in 'struct stat'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 169: Error: C2456E: undeclared name, inventing 'extern int EAGAIN'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 180: Error: C2456E: undeclared name, inventing 'extern int EINVAL'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 191: Error: C2456E: undeclared name, inventing 'extern int ECHILD'
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static '_zbar_symbol_set_add' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'sym_add_point' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_scan_rgb24' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_decoder_parse_config' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_image_scanner_parse_config' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_window_get_error_code' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_window_error_string' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_window_error_spew' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_video_get_error_code' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_video_error_string' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_video_error_spew' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_processor_get_error_code' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_processor_error_string' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_processor_error_spew' declared but not used
+"d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c", line 203: Warning: C2871W: static 'zbar_processor_parse_config' declared but not used
+d:\MyGitHub\calculatingPi\stf_syscalls_minimal.c: 33 warnings, 19 errors, 7 serious errors
